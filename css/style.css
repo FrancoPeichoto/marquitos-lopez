@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #1B1B1B;
+    font-family: "Poppins", sans-serif;
+}
+
+.contenedor-header{
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-carrito{
+    padding-right: 20px;
+    gap: 40px;
+    display: flex;
+}
+
+.letra-blanca{
+    color: white;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: #252525;
+}
+
+.nav-bar a{
+    border-radius: 10px;
+    color: white;
+    background-color: #555555;
+    padding: 10px 20px 10px 20px;
+}
+
+.barra-busqueda input{
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: none;
+    width: 500px;
+}
+
+.carrusel img{
+    width: 100%;
+}
+
+.contenedor-botones{
+    display: flex;
+    gap: 30px;
+    padding-left: 160px;
+    margin-top: 20px;
+}
+
+.btn-1 button{
+    padding: 20px 30px 20px 30px;
+    background-color: #555555;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.flex{
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+.fondo-productos{
+    background-color: #555555;
+    height: 340px;
+}
+
+.txt-productos h2{
+    padding-left: 5px;
+    color: white;
+}
+
+.txt-productos p{
+    padding-left: 5px;
+    color: white;
+}
+
+.contenedor-seccion-2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.txt-seccion-2 h2{
+    font-weight: 300;
+    color: white;
+}
+
+.txt-seccion-2 a{
+    font-weight: 300;
+    color: white;
+}
+
+.logo-footer{
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+.logo-footer img{
+    width: 300px;
+}
+
+.contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conjunto-footer h2{
+    padding-right: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(49, 49, 49);
+}
